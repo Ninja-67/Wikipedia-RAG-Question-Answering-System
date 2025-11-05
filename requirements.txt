@@ -1,0 +1,24 @@
+# Core
+fastapi>=0.111.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+tqdm>=4.66.0
+streamlit>=1.37.0
+requests>=2.31.0
+
+# LangChain
+langchain>=0.2.10
+langchain-community>=0.2.10
+langchain-openai>=0.1.7
+langchain-text-splitters>=0.2.2
+
+# Vector + embeddings
+faiss-cpu>=1.8.0
+sentence-transformers>=2.5.1
+transformers>=4.44.0
+torch>=2.3.0
+accelerate>=0.33.0
+safetensors>=0.4.4
+
+# Wikipedia loader deps
+wikipedia>=1.4.0
