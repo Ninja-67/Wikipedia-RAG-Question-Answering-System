@@ -137,18 +137,3 @@ wikipedia-rag-langchain-streamlit/
 
 ```
 
-----------
-
-## Notes
-
--   **Embeddings:** `sentence-transformers/all-MiniLM-L6-v2` (fast). For higher recall, try `BAAI/bge-base-en-v1.5`.
-    
--   **Reranker:** `cross-encoder/ms-marco-MiniLM-L-6-v2`.
-    
--   **Citations:** inline `[[n]]` map to the contexts shown in the UI.
-    
--   **CPU tips:** keep `MAX_TOKENS` modest (e.g., 64–160) and consider `repetition_penalty=1.1–1.2` for cleaner generations.
-    
-
-
-----------
